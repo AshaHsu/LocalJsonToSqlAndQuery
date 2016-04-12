@@ -15,6 +15,9 @@
 		0F1848E91CBCC33000C14EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1848E71CBCC33000C14EDB /* LaunchScreen.storyboard */; };
 		0F1848F41CBCC33000C14EDB /* JsonToSqlAndQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1848F31CBCC33000C14EDB /* JsonToSqlAndQueryTests.m */; };
 		0F1848FF1CBCC33000C14EDB /* JsonToSqlAndQueryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1848FE1CBCC33000C14EDB /* JsonToSqlAndQueryUITests.m */; };
+		0F18490D1CBCC34600C14EDB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F18490C1CBCC34600C14EDB /* libsqlite3.dylib */; };
+		0F1849111CBCC41000C14EDB /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F18490F1CBCC41000C14EDB /* test.json */; };
+		0F1849121CBCC41000C14EDB /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1849101CBCC41000C14EDB /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		0F1848FA1CBCC33000C14EDB /* JsonToSqlAndQueryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonToSqlAndQueryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1848FE1CBCC33000C14EDB /* JsonToSqlAndQueryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToSqlAndQueryUITests.m; sourceTree = "<group>"; };
 		0F1849001CBCC33000C14EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F18490C1CBCC34600C14EDB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = "../../../../Applications/Adobe Flash CC 2015/AIR17.0/lib/aot/stub/libsqlite3.dylib"; sourceTree = "<group>"; };
+		0F18490E1CBCC41000C14EDB /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		0F18490F1CBCC41000C14EDB /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		0F1849101CBCC41000C14EDB /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F18490D1CBCC34600C14EDB /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,7 @@
 		0F1848CD1CBCC33000C14EDB = {
 			isa = PBXGroup;
 			children = (
+				0F18490C1CBCC34600C14EDB /* libsqlite3.dylib */,
 				0F1848D81CBCC33000C14EDB /* JsonToSqlAndQuery */,
 				0F1848F21CBCC33000C14EDB /* JsonToSqlAndQueryTests */,
 				0F1848FD1CBCC33000C14EDB /* JsonToSqlAndQueryUITests */,
@@ -101,6 +110,9 @@
 		0F1848D81CBCC33000C14EDB /* JsonToSqlAndQuery */ = {
 			isa = PBXGroup;
 			children = (
+				0F18490E1CBCC41000C14EDB /* Test.h */,
+				0F18490F1CBCC41000C14EDB /* test.json */,
+				0F1849101CBCC41000C14EDB /* Test.m */,
 				0F1848DC1CBCC33000C14EDB /* AppDelegate.h */,
 				0F1848DD1CBCC33000C14EDB /* AppDelegate.m */,
 				0F1848DF1CBCC33000C14EDB /* ViewController.h */,
@@ -244,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1848E91CBCC33000C14EDB /* LaunchScreen.storyboard in Resources */,
+				0F1849111CBCC41000C14EDB /* test.json in Resources */,
 				0F1848E61CBCC33000C14EDB /* Assets.xcassets in Resources */,
 				0F1848E41CBCC33000C14EDB /* Main.storyboard in Resources */,
 			);
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1848E11CBCC33000C14EDB /* ViewController.m in Sources */,
+				0F1849121CBCC41000C14EDB /* Test.m in Sources */,
 				0F1848DE1CBCC33000C14EDB /* AppDelegate.m in Sources */,
 				0F1848DB1CBCC33000C14EDB /* main.m in Sources */,
 			);
